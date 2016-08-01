@@ -4222,6 +4222,15 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   font-weight: 700;
   line-height: 23px;
   }
+.navbar-nav > li > a.btn {
+  padding: 7.5px 14px;
+  margin: 8.5px 1px;
+  }
+.navbar-nav > li > a.btn:hover {
+  margin: 7.5px 0;
+  color: #fdcf41;
+  border: 1px solid #fdcf41;
+  }
 .navbar-nav > li > a:hover,
 .navbar-nav > li > a:focus,
 .navbar-nav .open > a:focus,

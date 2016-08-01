@@ -201,6 +201,15 @@
     padding: ((@navbar-height-base - 23px) / 2) 21px;
     line-height: 23px;
     font-weight: 700;
+    &.btn {
+      padding: ((@navbar-height-base - 38px) / 2) 14px;
+      margin: ((@navbar-height-base - 36px) / 2) 1px;
+      &:hover {
+        border: 1px solid @brand-warning;
+        color: @brand-warning;
+        margin: ((@navbar-height-base - 38px) / 2) 0;
+      }
+    }
   }
   > li > a:hover,
   > li > a:focus,
